@@ -5,11 +5,16 @@ import HealthcareForm from './components/HealthcareForm';
 
 const App = () => {
   return (
-    <div className="d-flex flex-column min-vh-100">
+    <div className="d-flex flex-column min-vh-100 overflow-auto">
       <Navbar />
       <HealthcareForm />
       {/* <Footer /> */}
     </div>
+    // <>
+    //   <Navbar />
+    //   <HealthcareForm />
+    //   <Footer />
+    // </>
   );
 };
 
